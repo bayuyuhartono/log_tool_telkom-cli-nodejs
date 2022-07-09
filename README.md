@@ -1,3 +1,3 @@
 Bayu Puguh Yuhartono - Node JS
 
-npm install -> npm link -> npm -h
+npm install -> npm link -> log_tool -h
