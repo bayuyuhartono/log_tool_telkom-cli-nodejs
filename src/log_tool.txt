@@ -1,0 +1,26 @@
+[050:17:09:01.298][I] 2022/02/19 17:09:01 eBPF loaded
+[050:17:09:01.298][I] 2022/02/19 17:09:01 pinned IP allowlist map to /sys/fs/bpf/allowed_map
+[050:17:09:01.298][I] 2022/02/19 17:09:01 pinned IP blocked_packets map to /sys/fs/bpf/blocked_packets
+[050:17:09:01.298][I] 2022/02/19 17:09:01 pinned IP allowlist trie to /sys/fs/bpf/allowed_trie
+[050:17:09:01.298][I] 2022/02/19 17:09:01 detected cgroup2 on /sys/fs/cgroup
+[050:17:09:01.298][I] 2022/02/19 17:09:01 applying policy to /sys/fs/cgroup/restricted
+[050:17:09:01.302][I] 2022/02/19 17:09:01 created /sys/fs/cgroup/restricted
+[050:17:09:01.303][I] 2022/02/19 17:09:01 attached eBPF to egress of cgroup /sys/fs/cgroup/restricted
+[050:17:09:01.303][I] 2022/02/19 17:09:01 detected cgroup2 on /sys/fs/cgroup
+[050:17:09:01.303][I] 2022/02/19 17:09:01 applying policy to /sys/fs/cgroup/docker/buildx
+[050:17:09:01.303][I] 2022/02/19 17:09:01 created /sys/fs/cgroup/docker/buildx
+[050:17:09:01.303][I] 2022/02/19 17:09:01 attached eBPF to egress of cgroup /sys/fs/cgroup/docker/buildx
+[050:17:09:01.303][I] 2022/02/19 17:09:01 IP allowlist loaded, allowing all traffic 
+[052:13:38:34.051][I] 2022/02/21 13:38:34 eBPF loaded
+[052:13:38:34.051][I] 2022/02/21 13:38:34 pinned IP allowlist map to /sys/fs/bpf/allowed_map
+[052:13:38:34.052][I] 2022/02/21 13:38:34 pinned IP blocked_packets map to /sys/fs/bpf/blocked_packets
+[052:13:38:34.052][I] 2022/02/21 13:38:34 pinned IP allowlist trie to /sys/fs/bpf/allowed_trie
+[052:13:38:34.052][I] 2022/02/21 13:38:34 detected cgroup2 on /sys/fs/cgroup
+[052:13:38:34.052][I] 2022/02/21 13:38:34 applying policy to /sys/fs/cgroup/restricted
+[052:13:38:34.059][I] 2022/02/21 13:38:34 created /sys/fs/cgroup/restricted
+[052:13:38:34.059][I] 2022/02/21 13:38:34 attached eBPF to egress of cgroup /sys/fs/cgroup/restricted
+[052:13:38:34.059][I] 2022/02/21 13:38:34 detected cgroup2 on /sys/fs/cgroup
+[052:13:38:34.059][I] 2022/02/21 13:38:34 applying policy to /sys/fs/cgroup/docker/buildx
+[052:13:38:34.059][I] 2022/02/21 13:38:34 created /sys/fs/cgroup/docker/buildx
+[052:13:38:34.059][I] 2022/02/21 13:38:34 attached eBPF to egress of cgroup /sys/fs/cgroup/docker/buildx
+[052:13:38:34.059][I] 2022/02/21 13:38:34 IP allowlist loaded, allowing all traffic 

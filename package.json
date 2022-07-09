@@ -1,0 +1,27 @@
+{
+  "name": "@bayuyuhartono/log_tool",
+  "version": "1.0.0",
+  "description": "log tool",
+  "main": "src/index.js",
+  "bin": {
+    "@bayuyuhartono/log_tool": "bin/log_tool",
+    "log_tool": "bin/log_tool"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "log_tool"
+  ],
+  "author": "Bayu Yuhartono",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "esm": "^3.2.25",
+    "fs": "^0.0.1-security"
+  }
+}
